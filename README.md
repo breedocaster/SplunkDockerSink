@@ -21,3 +21,12 @@ I do get failures and retries at the end of the log. I haven't fully researched 
 With "sudo docker ps" you can find a Search Head (sh) and log into that IP with port 8000
 
 Have fun and make sure you break something while you are there!!!!!!!
+
+
+--------------------Helpful Links-----------------------------------------
+
+Splunk Docker Examples
+https://splunk.github.io/docker-splunk/EXAMPLES.html
+
+Splunk Docker Test Scenarios
+https://github.com/splunk/docker-splunk/tree/develop/test_scenarios
