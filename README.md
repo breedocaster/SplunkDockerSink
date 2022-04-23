@@ -18,7 +18,9 @@ I do get failures and retries at the end of the log. I haven't fully researched 
 
 5. Run "sudo docker ps" to check the status of all containers (healthy vs unhealthy) once healthy they should be good to go. This can take some time as a lot of things are happening in the background. While testing in ESXi I have a minimal Ubuntu Server running 8 CPUs with 16 GBs of RAM and it took around 20min for a clean bill of health. Sometimes Ubuntu did fail, Arch does the best so far and only took 7min to start with no failures. (EndevorOS if you don't want to install Arch).
 
-With "sudo docker ps" you can find a Search Head (sh) and log into that IP with port 8000
+With "sudo docker ps" you can find a Search Head (sh1) use the IP of the machine running the container then find the port mapped to 8000. This snippet below is from my current Arch container. As you can see you would want to use port 49167 this time. 
+
+(651a97a749b6   splunk/splunk:latest   "/sbin/entrypoint.sh…"   7 minutes ago   Up 7 minutes (healthy)   8065/tcp, 8088/tcp, 8191/tcp, 9887/tcp, 9997/tcp, 0.0.0.0:49167->8000/tcp, :::49167->8000/tcp, 0.0.0.0:49156->8089/tcp, :::49156->8089/tcp                                                sh1)
 
 Have fun and make sure you break something while you are there!!!!!!!
 
