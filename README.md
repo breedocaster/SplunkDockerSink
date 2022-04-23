@@ -24,7 +24,7 @@ With "sudo docker ps" you can find a Search Head (sh1) use the IP of the machine
 
 Login should be username: admin password:changeme unless you changed this in the config.
 
-Have fun and make sure you break something while you are there!!!!!!!
+Have fun and make sure you break something while you are there!!!!!!
 
 
 --------------------Helpful Links-----------------------------------------
