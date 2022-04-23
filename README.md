@@ -22,6 +22,8 @@ With "sudo docker ps" you can find a Search Head (sh1) use the IP of the machine
 
 (651a97a749b6   splunk/splunk:latest   "/sbin/entrypoint.sh…"   7 minutes ago   Up 7 minutes (healthy)   8065/tcp, 8088/tcp, 8191/tcp, 9887/tcp, 9997/tcp, 0.0.0.0:49167->8000/tcp, :::49167->8000/tcp, 0.0.0.0:49156->8089/tcp, :::49156->8089/tcp                                                sh1)
 
+Login should be username: admin password:changeme unless you changed this in the config.
+
 Have fun and make sure you break something while you are there!!!!!!!
 
 
